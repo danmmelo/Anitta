@@ -37,7 +37,7 @@ div.container4 { /* a Discografia */
   height: 20%;
   position: relative;
   
-  margin-top: -2%;
+  margin-top: -3%;
   
 }
 
@@ -69,14 +69,14 @@ div.container4 p{ /* a Discografia */
         position: relative;
         overflow: hidden;
         background-color: black;
-        margin-top: 1%;
+        margin-top: 4%;
 
     } 
 
  div.container5 p { /* a SOBRE */
     position: absolute;
     top: 30%;
-    left: 43%;
+    left: 45%;
     margin-right: -50%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
@@ -92,7 +92,7 @@ div.container7{ /* a SOBRE INFORMA"COES */
     max-width: 100%;
     height: 80%;
     width: 100%;
-   margin-bottom: -3%;
+   margin-bottom: 0%;
  }
 
 
@@ -117,8 +117,7 @@ div.container11{
         height: 20%;
         position: relative;
         overflow: hidden;
-        background-color: black;
-        margin-top: 0%;
+        background-color: black;        
         margin-bottom: 3%;
 }  
 
@@ -126,13 +125,17 @@ div.container11 p { /* Comentarios */
    
     position: absolute;
     top: 30%;
-    left: 43%;
+    left: 45%;
     margin-right: -50%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
     color: white;
 }
 
+.anchor2{
+  position: absolute;
+  margin-top: 1%;
+}
 
    
 #album {
@@ -160,7 +163,7 @@ margin-top: 2%;
 /*Classe das anchoras do site*/
 .anchor1{
     position: absolute;
-    margin-top: -1%;
+    margin-top: -4%;
 }
 
 
@@ -179,9 +182,14 @@ margin-top: 2%;
 .container12 ul{
      position: absolute;
       margin-left: 3%;
-      padding-top: 2.5%;
+      padding-top: 3%;
  }
       
+ .anchor3{
+  position: absolute;
+  margin-top: -3%;
+}
+
 /* Lightbox */
 
 
