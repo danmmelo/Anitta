@@ -1,0 +1,284 @@
+
+#body {
+  
+  
+  }
+  
+  @font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+    src: local('Material Icons'),
+      local('MaterialIcons-Regular'),
+      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+  }
+  
+  .carousel-control {
+    position: relative; 
+    left: 0;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+   
+  } 
+
+  div.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 17%;
+}
+  div.container4 { /* a Discografia */
+    height: 20%;
+    position: relative;
+     margin-top: -3%;
+    
+  }
+  
+  div.container4 p{ /* a Discografia */
+   
+    position: absolute;
+    padding-top: 1.5%;
+    top: 30%;
+    left: 43%;
+    margin-right: -50%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 40px;
+    color: black;
+  }
+  
+  
+      /* é um container da DISCOGRAFIA */
+  
+  
+    .img-container5{ 
+     width: 100%;
+    
+    }
+  
+   /* é um container da SOBRE */
+  
+    div.container5{
+          height: 20%;
+          position: relative;
+          overflow: hidden;
+          background-color: black;
+          margin-top: 4%;
+  
+      } 
+  
+   div.container5 p { /* a SOBRE */
+      position: absolute;
+      top: 30%;
+      left: 45%;
+      margin-right: -50%;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 40px;
+      color: white;
+      
+  } 
+  
+    /* a SOBRE INFORMA"COES */
+  
+  div.container7{ /* a SOBRE INFORMA"COES */  
+      max-height: 60%;
+      /* border: 2px solid black; */
+      max-width: 100%;
+      height: 80%;
+      width: 100%;
+     margin-bottom: 0%;
+   }
+  
+  
+  .img-container8{
+       padding-top: 5%;
+       padding-left: 5%;
+       width: 100%;
+  }
+    
+  .container7 p {
+      position: absolute;
+      left: 30px;
+      padding-top: 4%;
+      padding-right: 5%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 15px;
+  
+  }
+  
+  
+  div.container11{
+          height: 20%;
+          position: relative;
+          overflow: hidden;
+          background-color: black;        
+          margin-bottom: 3%;
+  }  
+  
+  div.container11 p { /* Comentarios */
+     
+      position: absolute;
+      top: 30%;
+      left: 45%;
+      margin-right: -50%;
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 40px;
+      color: white;
+  }
+  
+  .anchor2{
+    position: absolute;
+    margin-top: 1%;
+  }
+  
+     
+  #album {
+  position:relative;
+  border:0px solid grey;
+  background-image: url("http://metropolitanafm.com.br/wp-content/uploads/2017/08/Anitta-conquista-novos-recordes-por-Essa-Mina-e%CC%81-Louca-MDPOP.jpg");
+  background-repeat: repeat;
+  border-width:1px 1px 1px 1px;
+  padding:5px 5px 100px 5px;
+  width:70%;
+  height: 60%;
+  margin-left: 10%;
+  margin-top: 2%;
+  
+  }
+  
+   .formulario{
+  
+      position: relative;
+      padding-top: 5%;
+      padding-left: 30%;
+      width: 70%;
+  } 
+  
+  /*Classe das anchoras do site*/
+  .anchor1{
+      position: absolute;
+      margin-top: -4%;
+  }
+  
+  
+  .container12{
+       height: 20%;
+       padding-top: 1%;
+       margin-top: 5%;
+       position: relative;
+       overflow: hidden;
+       background-color: black;
+       color: white;
+                  
+   }
+  
+   
+        
+  .container12 ul{
+       position: absolute;
+        margin-left: 3%;
+        padding-top: 3%;
+   }
+        
+   .anchor3{
+    position: absolute;
+    margin-top: -3%;
+  }
+  
+  /* Lightbox */
+  
+  
+  .box_img{
+      width: 1000px;
+      margin: 150px auto;
+    }
+    
+    .box_img img{
+      min-width: 600px;
+      min-height: 400px;
+      width: 500px;
+      margin-top: 80px;
+      margin-left: 200px;
+    }
+    
+    .bnt{
+      color: white;
+      font-family: 'arial';
+      text-decoration: none;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      margin-top: 15%;
+      top: 0%;
+      margin-left: 55%;
+      font-size: 30px;
+      text-align: center;
+     
+    }
+    #prev{
+      left: -30%;
+      top: 25%;
+     
+    }
+    #next{
+      right: 25%;
+      top: 25%;
+     
+    }
+    #close{
+      top:0;
+      /* right:2px; */
+    }
+    
+    .lbox{
+      visibility: hidden;
+      opacity: 0;
+    
+    }
+    .box_img img{
+    display: none;    
+    opacity: 0;
+    }
+    
+    .lbox:target .box_img img{
+      position: absolute;  
+      display: block;
+      opacity: 1;
+      transition: opacity .4s linear;
+      z-index: 11;
+    
+    }
+    
+    .lbox:target{
+      opacity: 1;
+      visibility: visible;
+      width: 100%;
+      height: 100%;
+      top:0;
+      left: 0;
+      background: rgba(10, 10, 10, .7);
+      position: fixed;
+      z-index: 11;
+    }
+    
+    ul{
+      width: 880px;
+      list-style: none;
+      display: flex;
+      margin: 100px auto; 
+    }
+    .min{
+      width: 200px;
+      height: 200px;
+      padding: 10px;
+    }
+  
+  
