@@ -32,7 +32,9 @@
   opacity: .5;
 } 
  
-
+.carouselDiv{
+  margin-top: 0.5px;
+}
 div.container4 { /* a Discografia */
   height: 20%;
   position: relative;
