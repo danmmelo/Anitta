@@ -59,24 +59,23 @@
     }
   
    /* é um container da SOBRE */ 
-    div.container5{
-          height: 10%;
-          position: relative;
-          overflow: hidden;
-          background-color: black;
-          margin-top: 4%; 
-      } 
+   div.container5 { /* a Discografia */
+    height: 8%;
+    position: relative;
+    margin-top: -3%;
+    
+  }
   
-   div.container5 p { /* a SOBRE */
-      position: absolute;
-      top: 30%;
-      margin-right: 40%;
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 20px;
-      color: white;
-      text-align: center;
-      
-  } 
+  div.container5 p{ /* a Discografia */
+    position: absolute;
+    padding-top: 1.5%;
+    top: 30%;
+    left: 25%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
   
     /* a SOBRE INFORMA"COES */
   
@@ -108,24 +107,23 @@
   }
   
   
-      div.container11{
-        height: 10%;
-        position: relative;
-        overflow: hidden;
-        background-color: black;
-        margin-top: 4%; 
-    } 
-
-    div.container11 p { /* a SOBRE */
+  div.container11 { /* a Discografia */
+    height: 8%;
+    position: relative;
+    margin-top: -3%;
+    
+  }
+  
+  div.container11 p{ /* a Discografia */
     position: absolute;
+    padding-top: 1.5%;
     top: 30%;
-    margin-right: 40%;
+    left: 25%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
     text-align: center;
-
-    } 
+  }
   .anchor2{
     position: absolute;
     margin-top: 1%;
