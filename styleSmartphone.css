@@ -59,23 +59,23 @@
     }
   
    /* é um container da SOBRE */ 
-    div.container5{
-      height: 5%;
-      position: relative;
-      margin-top: -3%;
-      } 
+   div.container5 { /* a Discografia */
+    height: 8%;
+    position: relative;
+    margin-top: -3%;
+    
+  }
   
-   div.container5 p { /* a SOBRE */
-
+  div.container5 p{ /* a Discografia */
     position: absolute;
+    padding-top: 1.5%;
     top: 30%;
     left: 25%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
-    color: white;
+    color: black;
     text-align: center;
-     
-  } 
+  }
   
     /* a SOBRE INFORMA"COES */
   
