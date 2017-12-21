@@ -53,25 +53,18 @@
     color: black;
     text-align: center;
   }
-  
-  
       /* é um container da DISCOGRAFIA */
-  
-  
     .img-container5{ 
-     width: 100%;
-    
+     width: 100%;   
     }
   
-   /* é um container da SOBRE */
-  
+   /* é um container da SOBRE */ 
     div.container5{
-          height: 20%;
+          /* height: 20%; */
           position: relative;
           overflow: hidden;
           background-color: black;
-          margin-top: 4%;
-  
+          margin-top: 4%; 
       } 
   
    div.container5 p { /* a SOBRE */
