@@ -60,7 +60,7 @@
   
    /* é um container da SOBRE */ 
     div.container5{
-          /* height: 20%; */
+          height: 20%;
           position: relative;
           overflow: hidden;
           background-color: black;
@@ -71,7 +71,6 @@
       position: absolute;
       top: 30%;
       left: 25%;
-      margin-right: -50%;
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 40px;
       color: white;
