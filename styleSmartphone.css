@@ -108,26 +108,24 @@
   }
   
   
-  div.container11{
-          height: 20%;
-          position: relative;
-          overflow: hidden;
-          background-color: black;        
-          margin-bottom: 3%;
-  }  
-  
-  div.container11 p { /* Comentarios */
-     
-      position: absolute;
-      top: 30%;
-      left: 45%;
-      margin-right: -50%;
-      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 40px;
-      color: white;
-      text-align: center;
-  }
-  
+      div.container11{
+        height: 10%;
+        position: relative;
+        overflow: hidden;
+        background-color: black;
+        margin-top: 4%; 
+    } 
+
+    div.container11 p { /* a SOBRE */
+    position: absolute;
+    top: 30%;
+    margin-left: 20%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+
+    } 
   .anchor2{
     position: absolute;
     margin-top: 1%;
