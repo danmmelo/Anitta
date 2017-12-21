@@ -39,7 +39,7 @@
   div.container4 { /* a Discografia */
     height: 20%;
     position: relative;
-     margin-top: -3%;
+    margin-top: -3%;
     
   }
   
@@ -53,6 +53,7 @@
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 40px;
     color: black;
+    text-align: center;
   }
   
   
@@ -83,6 +84,7 @@
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 40px;
       color: white;
+      text-align: center;
       
   } 
   
@@ -104,13 +106,14 @@
        width: 100%;
   }
     
-  .container7 p {
+  div.container7 p {
       position: absolute;
       left: 30px;
       padding-top: 4%;
       padding-right: 5%;
       font-family: 'Roboto', sans-serif;
       font-size: 15px;
+      text-align: center;
   
   }
   
@@ -132,6 +135,7 @@
       font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
       font-size: 40px;
       color: white;
+      text-align: center;
   }
   
   .anchor2{
